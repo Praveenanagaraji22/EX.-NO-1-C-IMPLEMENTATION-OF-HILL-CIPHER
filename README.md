@@ -42,8 +42,7 @@ void encrypt() {
         cipherMatrix[i][0] = cipherMatrix[i][0] % 26;
     }
 }
-```
-```
+
 void HillCipher(char message[], char key[]) {
     getKeyMatrix(key);
 
